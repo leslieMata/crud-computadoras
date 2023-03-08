@@ -32,7 +32,7 @@
                             <td>{{$item->procesador}}</td>
                             <td>{{$item->discoDuro}}</td>
                             <td>{{$item->descripcion}}</td>
-                            <td>{{$item->imagen}}</td>
+                            <td><img src="{{$item->imagen}}" width="90px" height="80px"></td>
                             <td><a href="{{route('edit', $item->id)}}"class="btn btn-warning">Editar</a></td>
                             <td><a href="{{route('show', $item->id)}}" class="btn btn-danger">Eliminar</a></td>
                         </tr>
